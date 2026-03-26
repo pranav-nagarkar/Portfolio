@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+export function Cursor() {
+  const isTouchDevice = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
+  
+  if (isTouchDevice) return null;
 
 export function Cursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
