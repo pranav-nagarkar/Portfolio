@@ -67,11 +67,10 @@ export function AboutSection() {
             >
               <p>
                 I work with founders and teams who have built something
-                meaningful but
-                {"haven't"} yet found the language to communicate it. My role is
-                to listen deeply, find the strategic truth at the core of what
-                they do, and translate it into positioning, voice, and systems
-                that work.
+                meaningful but {"haven't"} yet found the language to communicate
+                it. My role is to listen deeply, find the strategic truth at the
+                core of what they do, and translate it into positioning, voice,
+                and systems that work.
               </p>
               <p>
                 The best brand strategies {"aren't"} invented — {"they're"}{" "}
