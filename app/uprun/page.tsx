@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function UpRun() {
   const slideshowImages = [
-    "/images/ur2.jpg",
-    "/images/uprun-slide-1.jpg",
+    "/images/ur.jpg",
+    "/images/ur4.jpg",
     "/images/ur1.jpg",
   ];
 
@@ -29,7 +29,7 @@ export default function UpRun() {
         title="Up & Run"
         subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel for the way kids already live."
         tags={["Brand Strategy", "Consumer Goods", "Research"]}
-        image="/images/ur.jpeg"
+        image="/images/ur2.jpg"
       />
 
       <ImageSlideshow
