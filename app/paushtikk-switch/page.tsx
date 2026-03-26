@@ -163,7 +163,7 @@ export default function PaushtikkSwitch() {
         title="Untie"
         subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
         href="/untie"
-        image="/images/Untie1.jpg"
+        image="/images/untie6.jpg"
       />
 
       <Footer />
