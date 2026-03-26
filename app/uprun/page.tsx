@@ -19,6 +19,7 @@ export default function UpRun() {
     "/images/ur.jpeg",
     "/images/ur4.jpg",
     "/images/ur1.jpg",
+    "/images/ur5.jpg",
   ];
 
   return (
