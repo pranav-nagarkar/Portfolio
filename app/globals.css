@@ -85,17 +85,26 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    cursor: none;
   }
   body {
     @apply bg-background text-foreground;
-    cursor: none;
+  }
+
+  @media (pointer: fine) {
+    * {
+      cursor: none;
+    }
+    body {
+      cursor: none;
+    }
   }
 }
 
 /* Custom cursor */
-.custom-cursor {
-  cursor: none;
+@media (pointer: fine) {
+  .custom-cursor {
+    cursor: none;
+  }
 }
 
 /* Smooth scrolling */
