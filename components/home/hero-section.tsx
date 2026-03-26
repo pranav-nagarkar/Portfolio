@@ -1,21 +1,21 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
 export function HeroSection() {
-  const [isLoaded, setIsLoaded] = useState(false)
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setIsLoaded(true)
-  }, [])
+    setIsLoaded(true);
+  }, []);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center pt-24 pb-16 md:pt-32 md:pb-24">
+    <section className="flex flex-col justify-center pt-16 pb-12 md:min-h-screen md:pt-32 md:pb-24">
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full">
         {/* Intro Label */}
-        <div 
+        <div
           className={`mb-8 transition-all duration-700 delay-100 ${
-            isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
           <span className="text-sm tracking-wider uppercase text-muted-foreground">
@@ -25,28 +25,28 @@ export function HeroSection() {
         </div>
 
         {/* Main Headline */}
-        <h1 
+        <h1
           className={`font-serif text-4xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] max-w-5xl mb-8 transition-all duration-1000 delay-300 ${
-            isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
           I help brands find the words for what they already are.
         </h1>
 
         {/* Subheadline */}
-        <p 
+        <p
           className={`text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed transition-all duration-1000 delay-500 ${
-            isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Strategic positioning, brand voice, and communication systems that 
+          Strategic positioning, brand voice, and communication systems that
           help businesses connect with the people they were built to serve.
         </p>
 
         {/* Scroll Indicator */}
-        <div 
+        <div
           className={`mt-16 md:mt-24 flex items-center gap-4 transition-all duration-1000 delay-700 ${
-            isLoaded ? 'opacity-100' : 'opacity-0'
+            isLoaded ? "opacity-100" : "opacity-0"
           }`}
         >
           <div className="w-px h-16 bg-border relative overflow-hidden">
@@ -58,5 +58,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
