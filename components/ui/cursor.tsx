@@ -48,8 +48,10 @@ export function Cursor() {
       });
     });
 
-    return () => document.removeEventListener("mousemove", moveCursor);
-  }, []);
+    // Don't render on touch devices
+  if (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches) {
+    return null;
+  }
 
   return (
     <>
@@ -63,4 +65,3 @@ export function Cursor() {
       />
     </>
   );
-}
