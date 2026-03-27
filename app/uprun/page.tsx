@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function UpRun() {
   const slideshowImages = [
     "/images/ur.jpeg",
-    "/images/15.jpg",
+    "/images/ur4.jpg",
     "/images/ur5.jpg",
     "/images/1.jpg",
   ];
