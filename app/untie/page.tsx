@@ -29,7 +29,7 @@ export default function Untie() {
       <CaseStudyHero
         title="Untie"
         subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
-        tags={["Brand Strategy", "Lifestyle", "Identity"]}
+        tags={["Brand Strategy", "Hair Care", "Identity"]}
         image="/images/untie6.jpg"
       />
 
