@@ -41,7 +41,7 @@ export default function UpRun() {
       <ProjectOverview
         role="Brand Strategist"
         timeline="2023"
-        industry="Consumer Health"
+        industry="Hydration"
         client="Up & Run"
       />
 
