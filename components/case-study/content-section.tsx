@@ -45,7 +45,7 @@ export function ContentSection({
           {title}
         </h2>
         <div
-          className={`prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-3 md:space-y-5 transition-all duration-700 delay-200 ${
+          className={`prose prose-lg max-w-none text-muted-foreground leading-relaxed transition-all duration-700 delay-200 ${
             isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
