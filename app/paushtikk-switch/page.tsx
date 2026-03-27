@@ -151,11 +151,11 @@ export default function PaushtikkSwitch() {
       <ContentSection title="Reflection">
         <p>
           The wellness category is full of brands that promise everything and
-          deliver friction. {"Paushtikk Switch's"}
-          positioning works because it promises less — but delivers it
-          consistently. Sometimes the most powerful brand strategy is
-          permission. Permission to be imperfect. Permission to progress slowly.
-          Permission to make the switch at your own pace.
+          deliver friction. {"Paushtikk Switch's"} positioning works because it
+          promises less — but delivers it consistently. Sometimes the most
+          powerful brand strategy is permission. Permission to be imperfect.
+          Permission to progress slowly. Permission to make the switch at your
+          own pace.
         </p>
       </ContentSection>
 

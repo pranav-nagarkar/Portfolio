@@ -74,9 +74,8 @@ export function AboutSection() {
               </p>
               <p>
                 The best brand strategies {"aren't"} invented — {"they're"}{" "}
-                discovered. {"They're"}
-                already there, waiting to be articulated. My job is to find
-                them.
+                discovered. {"They're"} already there, waiting to be
+                articulated. My job is to find them.
               </p>
             </div>
 
