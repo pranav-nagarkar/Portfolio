@@ -18,7 +18,7 @@ export function ContentSection({
 
   if (variant === "highlight") {
     return (
-      <section ref={ref} className="py-20 md:py-32 bg-secondary">
+      <section ref={ref} className="py-16 md:py-24 bg-secondary">
         <div className="max-w-5xl mx-auto px-6 md:px-12">
           <blockquote
             className={`font-serif text-2xl md:text-4xl lg:text-5xl leading-relaxed text-center transition-all duration-1000 ${
@@ -35,7 +35,7 @@ export function ContentSection({
   }
 
   return (
-    <section ref={ref} className="py-16 md:py-24">
+    <section ref={ref} className="py-12 md:py-20">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         <h2
           className={`font-serif text-3xl md:text-4xl mb-8 transition-all duration-700 ${
