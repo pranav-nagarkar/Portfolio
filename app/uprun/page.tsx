@@ -227,7 +227,7 @@ export default function UpRun() {
         title="GoChanakya"
         subtitle="Rebranding a financial education firm for India's first-time earners."
         href="/gochanakya"
-        image="/images/gc4.jpg"
+        image="/images/gc4.jpeg"
       />
 
       <Footer />
