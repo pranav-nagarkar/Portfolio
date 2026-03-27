@@ -10,7 +10,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="flex flex-col justify-center pt-16 pb-12 md:min-h-screen md:pt-32 md:pb-24">
+    <section className="flex flex-col justify-start pt-16 pb-12 md:min-h-screen md:pt-32 md:pb-24">
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full">
         {/* Intro Label */}
         <div
