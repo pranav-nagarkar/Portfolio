@@ -175,14 +175,12 @@ export default function Aeter() {
           a supermarket aisle. {"That's"} what this was.
         </p>
       </ContentSection>
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
-        <NextProject
-          title="Up & Run"
-          subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
-          href="/uprun"
-          image="/images/ur.jpeg"
-        />
-      </div>
+      <NextProject
+        title="Up & Run"
+        subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
+        href="/uprun"
+        image="/images/ur.jpeg"
+      />
       <div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
         <Link
           href="/untie"
