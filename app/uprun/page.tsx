@@ -231,16 +231,17 @@ export default function UpRun() {
         href="/gochanakya"
         image="/images/gc4.jpeg"
       />
-      <Link
-        href="/aeter"
-        className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
-      >
-        <ArrowLeft className="w-4 h-4" />
-        <span className="text-sm tracking-wider uppercase">
-          Previous: Aeter
-        </span>
-      </Link>
-
+      <div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
+        <Link
+          href="/aeter"
+          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          <span className="text-sm tracking-wider uppercase">
+            Previous: Aeter
+          </span>
+        </Link>
+      </div>
       <Footer />
     </main>
   );
