@@ -159,8 +159,7 @@ export default function PaushtikkSwitch() {
           Permission to progress slowly. Permission to make the switch at your
           own pace.
         </p>
-      </ContentSection>
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+      </ContentSection>>
         <NextProject
           title="Untie"
           subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
@@ -171,12 +170,12 @@ export default function PaushtikkSwitch() {
           href="/gochanakya"
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
         >
-          <ArrowLeft className="w-4 h-4" />
-          <span className="text-sm tracking-wider uppercase">
-            Previous: GoChanakya
-          </span>
-        </Link>
-      </div>
+        <div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
+  <Link href="/paushtikk-switch" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300">
+    <ArrowLeft className="w-4 h-4" />
+    <span className="text-sm tracking-wider uppercase">Previous: Paushtikk Switch</span>
+  </Link>
+</div>
 
       <Footer />
     </main>
