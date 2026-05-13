@@ -176,6 +176,12 @@ export default function Aeter() {
         </p>
       </ContentSection>
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+        <NextProject
+          title="Up & Run"
+          subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
+          href="/uprun"
+          image="/images/ur.jpeg"
+        />
         <Link
           href="/untie"
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
@@ -186,13 +192,6 @@ export default function Aeter() {
           </span>
         </Link>
       </div>
-
-      <NextProject
-        title="Up & Run"
-        subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
-        href="/uprun"
-        image="/images/ur.jpeg"
-      />
 
       <Footer />
     </main>
