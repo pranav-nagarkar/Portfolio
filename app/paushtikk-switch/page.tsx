@@ -159,7 +159,7 @@ export default function PaushtikkSwitch() {
           Permission to progress slowly. Permission to make the switch at your
           own pace.
         </p>
-      </ContentSection>>
+      </ContentSection>
         <NextProject
           title="Untie"
           subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
