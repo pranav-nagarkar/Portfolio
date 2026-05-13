@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function Untie() {
   const slideshowImages = [
     "/images/Untie.jpeg",
-    "/images/Untiemessages.jpg",
+    "/images/Untie1.jpg",
     "/images/untienarrative.jpg",
     "/images/UntiePackaging.jpg",
   ];
