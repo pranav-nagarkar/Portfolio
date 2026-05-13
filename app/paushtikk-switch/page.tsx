@@ -161,17 +161,24 @@ export default function PaushtikkSwitch() {
         </p>
       </ContentSection>
       <NextProject
-  title="Untie"
-  subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
-  href="/untie"
-  image="/images/untie6.jpg"
-/>
-<div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
-  <Link href="/gochanakya" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300">
-    <ArrowLeft className="w-4 h-4" />
-    <span className="text-sm tracking-wider uppercase">Previous: GoChanakya</span>
-  </Link>
-</div>
+        title="Untie"
+        subtitle="Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category"
+        href="/untie"
+        image="/images/untie6.jpg"
+      />
+      <div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
+        <Link
+          href="/gochanakya"
+          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          <span className="text-sm tracking-wider uppercase">
+            Previous: GoChanakya
+          </span>
+        </Link>
+      </div>
 
-<Footer />
-</main>
+      <Footer />
+    </main>
+  );
+}
