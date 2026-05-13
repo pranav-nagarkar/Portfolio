@@ -18,8 +18,8 @@ export default function UpRun() {
   const slideshowImages = [
     "/images/ur.jpeg",
     "/images/ur4.jpg",
-    "/images/ur5.jpg",
-    "/images/3.jpg",
+    "/images/urprod.jpg",
+    "/images/urprod2.jpg",
   ];
 
   return (
