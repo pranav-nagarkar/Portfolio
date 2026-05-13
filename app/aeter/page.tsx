@@ -183,18 +183,16 @@ export default function Aeter() {
           image="/images/ur.jpeg"
         />
       </div>
-      <div className="bg-secondary w-full border-t border-border">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-6">
-          <Link
-            href="/untie"
-            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span className="text-sm tracking-wider uppercase">
-              Previous: Paushtikk Switch
-            </span>
-          </Link>
-        </div>
+      <div className="bg-secondary w-full border-t border-border px-6 md:px-12 py-6">
+        <Link
+          href="/untie"
+          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          <span className="text-sm tracking-wider uppercase">
+            Previous: Untie
+          </span>
+        </Link>
       </div>
 
       <Footer />
