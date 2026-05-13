@@ -7,6 +7,8 @@ import { ProjectOverview } from "@/components/case-study/project-overview";
 import { ContentSection } from "@/components/case-study/content-section";
 import { VisualBreak } from "@/components/case-study/visual-break";
 import { NextProject } from "@/components/case-study/next-project";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Up & Run | Pranav Nagarkar",
