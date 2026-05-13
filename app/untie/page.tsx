@@ -11,7 +11,7 @@ import { NextProject } from "@/components/case-study/next-project";
 export const metadata: Metadata = {
   title: "Untie | Pranav Nagarkar",
   description:
-    "Standing Out on a Crowded Shelf — Brand Strategy for a Curl Care Brand in India's Most Competitive Beauty Category",
+    "Standing Out on a Crowded Shelf — Brand Strategy for   a Curl Care Brand in India's Most Competitive Beauty Category",
 };
 
 export default function Untie() {
