@@ -160,24 +160,36 @@ export default function Untie() {
           step back and let space do the talking.
         </p>
       </ContentSection>
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
-        
-      </div>
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8"></div>
       <NextProject
         title="Aeter"
         subtitle="Brand strategy for a luxury perfume house entering the US and Gulf markets."
         href="/aeter"
         image="/images/aeter-cover.jpg"
       />
+
       <Link
-          href="/paushtikk-switch"
-          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          <span className="text-sm tracking-wider uppercase">
-            Previous: Paushtikk Switch
-          </span>
-        </Link>
+        href="/paushtikk-switch"
+        className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
+      >
+        <ArrowLeft className="w-4 h-4" />
+        <span className="text-sm tracking-wider uppercase">
+          Previous: Paushtikk Switch
+        </span>
+      </Link>
+      <div className="bg-secondary w-full border-t border-border">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-6">
+          <Link
+            href="/paushtikk-switch"
+            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span className="text-sm tracking-wider uppercase">
+              Previous: Paushtikk Switch
+            </span>
+          </Link>
+        </div>
+      </div>
 
       <Footer />
     </main>
