@@ -64,8 +64,8 @@ export default function UpRunPage() {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
-          Research and strategy for a children&apos;s hydration supplement —
-          finding the insight that reframed a supplement as fuel for the way
+          Research and strategy for a children&apos;s hydration supplement.
+          F3inding the insight that reframed a supplement as fuel for the way
           kids already live.
         </p>
 
@@ -102,8 +102,8 @@ export default function UpRunPage() {
           <p className="text-muted-foreground leading-relaxed">
             The product was a clean, need-based hydration supplement designed to
             support kids through their days. The brief was to find the central
-            idea that communication could be built on — something that worked
-            for the new product while staying true to what Up &amp; Run already
+            idea that communication could be built on, something that worked for
+            the new product while staying true to what Up &amp; Run already
             stood for.
           </p>
         </Section>
@@ -171,7 +171,7 @@ export default function UpRunPage() {
           </p>
           <p className="text-muted-foreground leading-relaxed mb-4">
             What came back was consistent. Parents weren&apos;t thinking about
-            hydration at all. They were thinking about energy — and solving it
+            hydration at all. They were thinking about energy and solving it
             with familiar, sugar-heavy products because the alternatives felt
             clinical or unnecessary.
           </p>
@@ -209,7 +209,7 @@ export default function UpRunPage() {
           </p>
           <p className="text-muted-foreground leading-relaxed mb-8">
             Children are already the most active demographic there is. They have
-            more on their plates than most adults — more movement, more energy
+            more on their plates than most adults. More movement, more energy
             expenditure, more heat exposure, more physical output. The hydration
             they need isn&apos;t corrective. It&apos;s fuel. This reframe
             changed everything.
@@ -235,7 +235,7 @@ export default function UpRunPage() {
 
           <div className="max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Movement is the proof of life — it is how we grow, adapt, and feel
+              Movement is the proof of life. It is how we grow, adapt, and feel
               alive. For Up &amp; Run, movement became the thread that connected
               the adult product and the children&apos;s product without forcing
               either into an uncomfortable fit.
@@ -288,8 +288,8 @@ export default function UpRunPage() {
 
           <p className="text-muted-foreground leading-relaxed max-w-3xl">
             The dual archetype served the dual audience. The Hero spoke to
-            parents — your child is capable, and this supports that capability.
-            The Explorer spoke to children — the world is yours to run through,
+            parents; your child is capable, and this supports that capability.
+            The Explorer spoke to children; the world is yours to run through,
             and this keeps you running. Both archetypes served the same product
             but met their respective audiences exactly where they were.
           </p>
@@ -328,12 +328,12 @@ export default function UpRunPage() {
               {
                 name: "Need-Based Hydration",
                 tag: "Product territory",
-                desc: "We highlight what makes each product unique — the function, the benefit, the flavour, and the specific need it solves. Clear, simple, purposeful. Hydration built for your needs, not the other way round.",
+                desc: "We highlight what makes each product unique; the function, the benefit, the flavour, and the specific need it solves. Clear, simple, purposeful. Hydration built for your needs, not the other way round.",
               },
               {
                 name: "Movement & Everyday Hydration",
                 tag: "Philosophy territory",
-                desc: "At the core of Up & Run is movement — physical, mental, emotional. We build hydration that keeps people going through their every day, across age and intensity.",
+                desc: "At the core of Up & Run is movement; physical, mental, emotional. We build hydration that keeps people going through their every day, across age and intensity.",
               },
               {
                 name: "Everyday Support & Encouragement",
@@ -438,7 +438,7 @@ export default function UpRunPage() {
           <p className="text-muted-foreground leading-relaxed">
             Up &amp; Run was already about movement. Children are already
             movers. The insight wasn&apos;t invented. It was recognised.
-            That&apos;s the work I find most interesting — not building a brand
+            That&apos;s the work I find most interesting: not building a brand
             idea from nothing, but finding the one that was already there,
             waiting to be seen.
           </p>

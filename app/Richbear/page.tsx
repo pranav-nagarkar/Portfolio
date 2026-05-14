@@ -105,7 +105,7 @@ export default function RichbearPage() {
             Coffee Day pioneered the category. Starbucks owns aspiration. Blue
             Tokai and Subko own craft. Third Wave has community. Every brand in
             the space is chasing the same educated, urban, coffee-literate
-            consumer — and most are saying the same things to get there.
+            consumer and most are saying the same things to get there.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-8">
             For a new multi-city entrant, differentiation couldn&apos;t come
@@ -134,7 +134,7 @@ export default function RichbearPage() {
                 were crowded. Both were loud.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                But there was a third space — quieter and underowned. A brand
+                But there was a third space, quieter and underowned. A brand
                 built around the feeling of being genuinely present in your own
                 day. Not dramatic aliveness. Not Instagram aliveness. The small,
                 grounded, deeply satisfying moment when the autopilot switches
@@ -158,7 +158,7 @@ export default function RichbearPage() {
                   The open space
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  A brand that is functional, dependable, and present — a calm
+                  A brand that is functional, dependable, and present. A calm
                   constant in a noisy, accelerated day.
                 </p>
               </div>
@@ -256,10 +256,10 @@ export default function RichbearPage() {
           </blockquote>
           <p className="text-muted-foreground leading-relaxed">
             The positioning statement does two things at once: it defines the
-            audience precisely (urban Indians on autopilot — a behavioural
-            state, not a demographic), and it gives the brand a clear functional
-            role in their lives. It is not aspirational in the conventional
-            sense. It is emotionally specific, which is more durable.
+            audience precisely (urban Indians on autopilot: a behavioural state,
+            not a demographic), and it gives the brand a clear functional role
+            in their lives. It is not aspirational in the conventional sense. It
+            is emotionally specific, which is more durable.
           </p>
         </Section>
 
@@ -371,11 +371,11 @@ export default function RichbearPage() {
         <Section className="mb-28 md:mb-40 max-w-3xl">
           <SectionLabel>What this project shows</SectionLabel>
           <p className="text-muted-foreground leading-relaxed">
-            Richbear is a case study in competitive white-space mapping —
-            finding the gap not through feature differentiation but through
-            emotional territory. The insight (autopilot interruption), the
-            architecture (dual archetype), and the communication system all flow
-            from a single strategic premise. That coherence is the work.
+            Richbear is a case study in competitive white-space mapping; finding
+            the gap not through feature differentiation but through emotional
+            territory. The insight (autopilot interruption), the architecture
+            (dual archetype), and the communication system all flow from a
+            single strategic premise. That coherence is the work.
           </p>
         </Section>
       </div>

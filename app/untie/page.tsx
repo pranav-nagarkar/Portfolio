@@ -64,7 +64,7 @@ export default function UntiePage() {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
-          Standing out on a crowded shelf — brand strategy for a curl care brand
+          Standing out on a crowded shelf; brand strategy for a curl care brand
           in India&apos;s most competitive beauty category. Confidential.
         </p>
 
@@ -98,15 +98,15 @@ export default function UntiePage() {
             A name and a feeling. Not yet a brand.
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Untie came to me knowing they wanted to build something in the curl
-            care space — but with a specific conviction that most of the
-            category was getting it wrong. Too many products. Too many steps.
-            Too much pressure on people who just wanted their hair to cooperate.
+            Untie came knowing they wanted to build something in the curl care
+            space, but with a specific conviction that most of the category was
+            getting it wrong. Too many products. Too many steps. Too much
+            pressure on people who just wanted their hair to cooperate.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             The challenge was to take this intuition and build it into a
-            complete brand system — positioning, philosophy, voice, product
-            architecture — that could hold the weight of the idea without
+            complete brand system; positioning, philosophy, voice, product
+            architecture; that could hold the weight of the idea without
             diluting it. The scope was full: competitive research, audience
             mapping, singular idea, brand strategy, and naming.
           </p>
@@ -121,7 +121,7 @@ export default function UntiePage() {
                 Curl care taught people that complexity equals commitment.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Curly hair genuinely is more complex than straight hair — it is
+                Curly hair genuinely is more complex than straight hair. It is
                 more porous, more reactive, more sensitive to humidity and
                 climate. The science behind it is real. But the category used
                 that science to justify longer routines, more products, more
@@ -131,7 +131,7 @@ export default function UntiePage() {
                 Over time, care stopped being something you do. It became
                 something you manage. Routines became hard to repeat. When
                 routines are hard to repeat, results become unreliable. And
-                unreliable results lead to abandonment — then starting over with
+                unreliable results lead to abandonment, then starting over with
                 a new product that promises to fix everything.
               </p>
             </div>
@@ -306,9 +306,9 @@ export default function UntiePage() {
           </h2>
           <blockquote className="font-serif text-2xl md:text-3xl italic leading-snug border-l-2 border-foreground pl-6 mb-8">
             &ldquo;For people tired of complex curl care, Untie is a hair care
-            brand that provides relief through simplification — because
-            healthier curls come from doing exactly what is necessary. Nothing
-            more, nothing less.&rdquo;
+            brand that provides relief through simplification, because healthier
+            curls come from doing exactly what is necessary. Nothing more,
+            nothing less.&rdquo;
           </blockquote>
           <p className="text-muted-foreground leading-relaxed">
             The positioning is built around a specific emotional state — tired
@@ -341,7 +341,7 @@ export default function UntiePage() {
               {
                 name: "Relief is the Real Result",
                 tag: "Emotion territory",
-                desc: "The real benefit isn't healthy hair — it's mental relief. Relief from long routines, relief from scheduling care, relief from never feeling like you're doing enough. Less thinking. Less second-guessing.",
+                desc: "The real benefit isn't healthy hair, it's mental relief. Relief from long routines, relief from scheduling care, relief from never feeling like you're doing enough. Less thinking. Less second-guessing.",
               },
               {
                 name: "Simplification for Consistency",
@@ -351,7 +351,7 @@ export default function UntiePage() {
               {
                 name: "We Understand Your Experience",
                 tag: "Community territory",
-                desc: "We speak from shared experience — not authority. Your curls don't need a perfect routine. They just need one you'll come back to.",
+                desc: "We speak from shared experience, not authority. Your curls don't need a perfect routine. They just need one you'll come back to.",
               },
             ].map(({ name, tag, desc }) => (
               <div
@@ -434,7 +434,7 @@ export default function UntiePage() {
           <SectionLabel>What this project shows</SectionLabel>
           <p className="text-muted-foreground leading-relaxed mb-4">
             Untie is a case study in discipline. The hardest part of this
-            project wasn&apos;t finding the insight — it was resisting the urge
+            project wasn&apos;t finding the insight, it was resisting the urge
             to add to it. The most powerful thing about a brand built around
             simplicity is that the strategy itself has to embody the same
             principle. Every claim that doesn&apos;t earn its place, every

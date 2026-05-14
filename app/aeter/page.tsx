@@ -127,7 +127,7 @@ export default function AeterPage() {
                 $100–$600 is uncomfortable territory for a new entrant.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                At $100 you are accessible luxury — competing with Maison
+                At $100 you are accessible luxury, competing with Maison
                 Margiela Replica, Jo Malone, and a growing wave of niche indie
                 perfumers. At $600 you are competing with heritage houses —
                 Creed, Amouage, Roja Parfums — brands with decades of mythology,
@@ -300,7 +300,7 @@ export default function AeterPage() {
           </h2>
           <blockquote className="font-serif text-2xl md:text-3xl italic leading-snug border-l-2 border-foreground pl-6 mb-8">
             &ldquo;For people who see perfumes as an extension of themselves, we
-            are a brand that helps establish presence through scent — because
+            are a brand that helps establish presence through scent, because
             fragrance is the intangible experience of what you can be.&rdquo;
           </blockquote>
           <p className="text-muted-foreground leading-relaxed">
@@ -425,7 +425,7 @@ export default function AeterPage() {
         <Section className="mb-28 md:mb-40 max-w-3xl">
           <SectionLabel>What this project shows</SectionLabel>
           <p className="text-muted-foreground leading-relaxed">
-            Aeter is a case study in concept-led brand building — where the idea
+            Aeter is a case study in concept-led brand building, where the idea
             precedes the product and the strategy creates a world rather than a
             product description. The best brand strategies are acts of
             translation: taking what a founder knows in their bones and making
