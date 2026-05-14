@@ -279,10 +279,10 @@ export default function PaushtikkSwitchPage() {
         <Section className="mb-20 md:mb-28">
           <div className="py-20 md:py-32 border-t border-b border-border text-center">
             <p className="font-serif text-5xl md:text-7xl leading-none">
-              Make <span className="italic">the switch.</span>
+              <span className="italic">Evolution. Not transformation </span>
             </p>
             <p className="text-xs tracking-widest uppercase text-muted-foreground mt-6">
-              Not transformation. Direction.
+              The difference between a destination and a direction.
             </p>
           </div>
         </Section>
