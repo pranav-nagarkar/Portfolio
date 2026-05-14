@@ -39,7 +39,7 @@ export function Navigation() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <Link
-            href="#work"
+            href="/#work"
             className={`text-sm tracking-wide transition-all hover:opacity-70 ${
               isHome ? "opacity-100" : "opacity-60 hover:opacity-100"
             }`}
@@ -63,7 +63,7 @@ export function Navigation() {
         <div className="md:hidden absolute top-full left-0 right-0 bg-background border-t border-border">
           <div className="px-6 py-8 flex flex-col gap-6">
             <Link
-              href="#work"
+              href="/#work"
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-lg tracking-wide"
             >
