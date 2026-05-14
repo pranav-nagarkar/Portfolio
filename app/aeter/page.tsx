@@ -52,9 +52,6 @@ const slideshowImages = [
 export default function AeterPage() {
   return (
     <main className="min-h-screen bg-background">
-      export default function RichbearPage() {
-  return (
-    <main className="min-h-screen bg-background">
       <Navigation />
       {/*Hero */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
