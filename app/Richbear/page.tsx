@@ -82,8 +82,8 @@ export default function RichbearPage() {
       <ImageSlideshow
         images={[
           "/images/richbearcover.jpg",
-          "/images/richbear3.jpg",
           "/images/richbear2.jpg",
+          "/images/richbear.jpg",
         ]}
         alt="Richbear brand visuals"
       />
