@@ -228,9 +228,6 @@ export default function AeterPage() {
           </div>
         </Section>
 
-        {/* Divider */}
-        <div className="border-t border-border mb-20 md:mb-28" />
-
         {/* 05 — Brand Architecture */}
         <Section className="mb-20 md:mb-28">
           <SectionLabel>05 — Brand Architecture</SectionLabel>

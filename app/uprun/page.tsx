@@ -248,9 +248,6 @@ export default function UpRunPage() {
           </div>
         </Section>
 
-        {/* Divider */}
-        <div className="border-t border-border mb-20 md:mb-28" />
-
         {/* 06 — Brand Architecture */}
         <Section className="mb-20 md:mb-28">
           <SectionLabel>06 — Brand Architecture</SectionLabel>
