@@ -53,7 +53,7 @@ export default function RichbearPage() {
           style={{ animationFillMode: "both" }}
         >
           <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
-            Brand Strategy · F&amp;B · Café Chain · FondofDesign
+            Brand Strategy · F&amp;B · Café Chain ·
           </p>
 
           <h1 className="font-serif text-6xl md:text-8xl lg:text-[108px] leading-none tracking-tight mb-6">
@@ -71,8 +71,6 @@ export default function RichbearPage() {
             {[
               { label: "Category", value: "F&B / Cafés" },
               { label: "Scope", value: "Full brand strategy" },
-              { label: "Market", value: "India (Tier 1 & 2 cities)" },
-              { label: "Via", value: "FondofDesign" },
             ].map(({ label, value }) => (
               <div key={label} className="flex flex-col gap-1">
                 <span className="text-xs tracking-widest uppercase text-muted-foreground">

@@ -56,7 +56,7 @@ export default function UpRunPage() {
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
-          Brand Strategy · Research · Hydration · FondofDesign
+          Brand Strategy · Research · Hydration ·
         </p>
 
         <h1 className="font-serif text-6xl md:text-8xl lg:text-[108px] leading-none tracking-tight mb-6">

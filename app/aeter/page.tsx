@@ -56,7 +56,7 @@ export default function AeterPage() {
       {/*Hero */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
-          Brand Strategy · Luxury Fragrance · US & Gulf Markets · FondofDesign
+          Brand Strategy · Luxury Fragrance · US & Gulf Markets ·
         </p>
 
         <h1 className="font-serif text-6xl md:text-8xl lg:text-[108px] leading-none tracking-tight mb-6">
@@ -73,8 +73,6 @@ export default function AeterPage() {
           {[
             { label: "Category", value: "Luxury Fragrance" },
             { label: "Scope", value: "Full brand strategy" },
-            { label: "Markets", value: "US & Gulf" },
-            { label: "Price Range", value: "$100 – $600" },
           ].map(({ label, value }) => (
             <div key={label} className="flex flex-col gap-1">
               <span className="text-xs tracking-widest uppercase text-muted-foreground">
