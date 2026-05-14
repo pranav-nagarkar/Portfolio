@@ -53,7 +53,7 @@ export function AboutSection() {
                   : "opacity-0 translate-y-8"
               }`}
             >
-              Brand strategy is the art of making the invisible visible — taking
+              Brand strategy is the art of making the invisible visible; taking
               what a business already knows about itself and making it legible
               to everyone else.
             </p>
@@ -73,7 +73,7 @@ export function AboutSection() {
                 and systems that work.
               </p>
               <p>
-                The best brand strategies {"aren't"} invented — {"they're"}{" "}
+                The best brand strategies {"aren't"} invented, {"they're"}{" "}
                 discovered. {"They're"} already there, waiting to be
                 articulated. My job is to find them.
               </p>
