@@ -73,8 +73,6 @@ export default function UpRunPage() {
           {[
             { label: "Category", value: "Hydration / FMCG" },
             { label: "Scope", value: "Research & brand strategy" },
-            { label: "Market", value: "India (Tier 1 & 2 cities)" },
-            { label: "Via", value: "FondofDesign" },
           ].map(({ label, value }) => (
             <div key={label} className="flex flex-col gap-1">
               <span className="text-xs tracking-widest uppercase text-muted-foreground">
@@ -85,19 +83,6 @@ export default function UpRunPage() {
           ))}
         </div>
       </section>
-
-      {/* Cover image */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
-        <div className="relative w-full aspect-[16/7]">
-          <Image
-            src="/images/ur2.jpg"
-            alt="Up and Run - hydration that keeps you moving"
-            fill
-            className="object-cover rounded-sm"
-          />
-        </div>
-      </section>
-
       {/* Slideshow */}
       <ImageSlideshow images={slideshowImages} alt="Up and Run brand visuals" />
 
