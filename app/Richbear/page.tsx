@@ -82,7 +82,12 @@ export default function RichbearPage() {
           <Image src="/images/richbear-cover.jpg" alt="Richbear" fill className="object-cover" />
       */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
-        <div className="w-full aspect-[16/7] bg-muted rounded-sm" />
+        <Image
+          src="/images/richbearcover.jpg"
+          alt="Richbear"
+          fill
+          className="object-cover"
+        />
       </section>
 
       {/* ── Body content ─────────────────────────────────────────────────── */}
