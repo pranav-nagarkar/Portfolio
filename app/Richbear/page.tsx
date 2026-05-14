@@ -192,10 +192,6 @@ export default function RichbearPage() {
             </p>
           </div>
         </Section>
-
-        {/* Divider */}
-        <div className="border-t border-border mb-20 md:mb-28" />
-
         {/* 04 — Brand Architecture */}
         <Section className="mb-20 md:mb-28">
           <SectionLabel>04 — Brand Architecture</SectionLabel>
