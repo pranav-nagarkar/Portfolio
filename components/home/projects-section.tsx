@@ -43,6 +43,15 @@ const projects = [
     tags: ["FMCG", "Research", "Strategy"],
     href: "/uprun",
   },
+  {
+    num: "06",
+    title: "Richbear",
+    description:
+      "A brand strategy for a multi-city café chain entering a market where coffee has been commoditised.
+      ",
+    tags: ["FMCG", "F&B", "Cafe & Restaurants"],
+    href: "/richbear",
+  },
 ];
 
 export function ProjectsSection() {
