@@ -51,11 +51,8 @@ export default function RichbearPage() {
     <main className="min-h-screen bg-background">
       <Navigation />
       {/* Hero */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
-        <div
-          className="transition-all duration-700 opacity-100 translate-y-0"
-          style={{ animationFillMode: "both" }}
-        >
+      <main className="min-h-screen bg-background">
+      <Navigation />
           <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
             Brand Strategy · F&amp;B · Café Chain · FondofDesign
           </p>
