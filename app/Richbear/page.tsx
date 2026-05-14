@@ -393,8 +393,15 @@ export default function RichbearPage() {
         </Section>
       </div>
 
-      {/* Previous project */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+      {/* Next project */}
+      <NextProject
+        title="GoChanakya"
+        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
+        href="/gochanakya"
+        image="/images/gc.jpeg"
+      />
+         {/* Previous project */}
+         <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/uprun"
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
@@ -405,14 +412,6 @@ export default function RichbearPage() {
           </span>
         </Link>
       </div>
-
-      {/* Next project */}
-      <NextProject
-        title="GoChanakya"
-        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
-        href="/gochanakya"
-        image="/images/gc.jpeg"
-      />
     </main>
   );
 }

@@ -445,8 +445,16 @@ export default function UpRunPage() {
         </Section>
       </div>
 
-      {/* Previous project */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+      {/* Next project */}
+      <NextProject
+        title="Richbear"
+        subtitle="A brand strategy for a multi-city café chain entering a market where coffee has been commoditised."
+        href="/Richbear"
+        image="/images/richbearcover.jpg"
+      />
+    </main>
+        {/* Previous project */}
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/aeter"
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
@@ -457,14 +465,5 @@ export default function UpRunPage() {
           </span>
         </Link>
       </div>
-
-      {/* Next project */}
-      <NextProject
-        title="Richbear"
-        subtitle="A brand strategy for a multi-city café chain entering a market where coffee has been commoditised."
-        href="/Richbear"
-        image="/images/richbearcover.jpg"
-      />
-    </main>
   );
 }

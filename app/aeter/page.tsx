@@ -434,6 +434,13 @@ export default function AeterPage() {
         </Section>
       </div>
 
+      {/*Next project*/}
+      <NextProject
+        title="Up & Run"
+        subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
+        href="/uprun"
+        image="/images/ur.jpeg"
+      />
       {/*Previous project link */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
@@ -446,14 +453,6 @@ export default function AeterPage() {
           </span>
         </Link>
       </div>
-
-      {/*Next project*/}
-      <NextProject
-        title="Up & Run"
-        subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
-        href="/uprun"
-        image="/images/ur.jpeg"
-      />
     </main>
   );
 }

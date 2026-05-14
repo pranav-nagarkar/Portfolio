@@ -450,6 +450,13 @@ export default function UntiePage() {
         </Section>
       </div>
 
+      {/* Next project */}
+      <NextProject
+        title="Aeter"
+        subtitle="Brand strategy for a new luxury perfume house entering the US and Gulf markets."
+        href="/aeter"
+        image="/images/aeter-cover.jpg"
+      />
       {/* Previous project */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
@@ -462,14 +469,6 @@ export default function UntiePage() {
           </span>
         </Link>
       </div>
-
-      {/* Next project */}
-      <NextProject
-        title="Aeter"
-        subtitle="Brand strategy for a new luxury perfume house entering the US and Gulf markets."
-        href="/aeter"
-        image="/images/aeter-cover.jpg"
-      />
     </main>
   );
 }
