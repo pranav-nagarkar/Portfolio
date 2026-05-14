@@ -4,6 +4,7 @@ import { useInView } from "@/hooks/use-in-view";
 import { NextProject } from "@/components/case-study/next-project";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import Image from "next/image";
 
 // ─── Section wrapper with scroll-in animation ───────────────────────────────
 function Section({
@@ -76,18 +77,15 @@ export default function RichbearPage() {
           </div>
         </div>
       </section>
-
-      {/* ── Cover image placeholder ───────────────────────────────────────── */}
-      {/* Replace the bg-muted div below with your actual cover image:
-          <Image src="/images/richbear-cover.jpg" alt="Richbear" fill className="object-cover" />
-      */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
-        <Image
-          src="/images/richbearcover.jpg"
-          alt="Richbear"
-          fill
-          className="object-cover"
-        />
+        <div className="relative w-full aspect-[16/7]">
+          <Image
+            src="/images/richbearcover.jpg"
+            alt="Richbear"
+            fill
+            className="object-cover rounded-sm"
+          />
+        </div>
       </section>
 
       {/* ── Body content ─────────────────────────────────────────────────── */}
