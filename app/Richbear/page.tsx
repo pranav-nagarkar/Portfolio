@@ -9,14 +9,17 @@ import { ImageSlideshow } from "@/components/case-study/image-slideshow";
 import { Navigation } from "@/components/navigation";
 
 // Section wrapper with scroll-in animation 
+function Section({
   children,
-  className = "",
-  delay = 0,
+  className,
+  delay,
 }: {
   children: React.ReactNode;
   className?: string;
   delay?: number;
 }) {
+  className = className || "";
+  delay = delay || 0;
   const { ref, isInView } = useInView({ threshold: 0.1 });
   return (
     <div
