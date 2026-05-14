@@ -191,7 +191,7 @@ export default function PaushtikkSwitchPage() {
 
           <div className="bg-secondary py-20 md:py-32 flex flex-col items-center justify-center text-center mb-10 rounded-sm">
             <span className="font-serif text-7xl md:text-9xl italic leading-none mb-3">
-              The Switch
+              Evolution
             </span>
             <span className="text-xs tracking-widest uppercase text-muted-foreground">
               Brand Essence
@@ -200,10 +200,13 @@ export default function PaushtikkSwitchPage() {
 
           <div className="max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A switch is not a transformation. It&apos;s a single, deliberate
-              change — small enough to make today, meaningful enough to matter
-              tomorrow. The name was already holding the idea. The brand just
-              needed to commit to it fully.
+              Evolution isn't an event. It's a process — incremental,
+              inevitable, and happening whether you're paying attention or not.
+              The question isn't whether you'll change. It's whether the change
+              will be intentional. Paushtikk Switch exists for the deliberate
+              version. Not the dramatic overnight shift, but the small,
+              consistent adjustments that compound quietly into something you
+              can feel.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Make the switch from aspiration to action. From pressure to
