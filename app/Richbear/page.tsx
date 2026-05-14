@@ -8,8 +8,7 @@ import Image from "next/image";
 import { ImageSlideshow } from "@/components/case-study/image-slideshow";
 import { Navigation } from "@/components/navigation";
 
-// ─── Section wrapper with scroll-in animation ───────────────────────────────
-function Section({
+// Section wrapper with scroll-in animation 
   children,
   className = "",
   delay = 0,
@@ -32,7 +31,7 @@ function Section({
   );
 }
 
-// ─── Reusable label above sections ──────────────────────────────────────────
+// Reusable label above sections 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4 pb-3 border-b border-border">
@@ -48,7 +47,7 @@ export default function RichbearPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-      {/* ── Hero ──────────────────────────────────────────────────────────── */}
+      {/* Hero */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <div
           className="transition-all duration-700 opacity-100 translate-y-0"
@@ -93,8 +92,8 @@ export default function RichbearPage() {
         alt="Richbear brand visuals"
       />
 
-      {/* ── Body content ─────────────────────────────────────── */}
-      {/* ── Body content ─────────────────────────────────────────────────── */}
+      {/*Body content*/}
+      {/*Body content*/}
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* 01 — The Problem */}
         <Section className="mb-20 md:mb-28 max-w-3xl">
@@ -380,7 +379,7 @@ export default function RichbearPage() {
           </p>
         </Section>
       </div>
-      {/* ── Next project ──────────────────────────────────────────────────── */}
+      {/* Next project */}
       {/* Replace title/subtitle/href/image with whichever project follows Richbear in your order */}
       <NextProject
         title="GoChanakya"

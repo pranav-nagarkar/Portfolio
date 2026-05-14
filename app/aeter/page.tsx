@@ -8,7 +8,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Navigation } from "@/components/navigation";
 
-// ─── Section wrapper with scroll-in animation ───────────────────────────────
+// Section wrapper with scroll-in animation
 function Section({
   children,
   className = "",
@@ -54,7 +54,7 @@ export default function AeterPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-      {/* ── Hero ──────────────────────────────────────────────────────────── */}
+      {/*Hero */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
           Brand Strategy · Luxury Fragrance · US & Gulf Markets · FondofDesign
@@ -87,13 +87,13 @@ export default function AeterPage() {
         </div>
       </section>
 
-      {/* ── Slideshow ─────────────────────────────────────────────────────── */}
+      {/*Slideshow*/}
       <ImageSlideshow
         images={slideshowImages}
         alt="Aeter luxury perfume brand visuals"
       />
 
-      {/* ── Body content ─────────────────────────────────────────────────── */}
+      {/*Body content */}
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* 01 — The Brief */}
         <Section className="mb-20 md:mb-28 max-w-3xl">
@@ -440,7 +440,7 @@ export default function AeterPage() {
         </Section>
       </div>
 
-      {/* ── Previous project link ─────────────────────────────────────────── */}
+      {/*Previous project link */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/untie"
@@ -453,7 +453,7 @@ export default function AeterPage() {
         </Link>
       </div>
 
-      {/* ── Next project ──────────────────────────────────────────────────── */}
+      {/*Next project*/}
       <NextProject
         title="Up & Run"
         subtitle="Research and strategy for a children's hydration supplement — finding the insight that reframed a supplement as fuel."
