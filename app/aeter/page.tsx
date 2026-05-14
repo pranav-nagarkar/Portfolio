@@ -49,7 +49,6 @@ const slideshowImages = [
 export default function AeterPage() {
   return (
     <main className="min-h-screen bg-background">
-
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
@@ -104,7 +103,6 @@ export default function AeterPage() {
 
       {/* ── Body content ─────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-
         {/* 01 — The Brief */}
         <Section className="mb-20 md:mb-28 max-w-3xl">
           <SectionLabel>01 — The Brief</SectionLabel>
@@ -118,12 +116,12 @@ export default function AeterPage() {
             communication framework, and identity direction.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            The founder came to the brief with something most clients
-            don&apos;t have: genuine, personal product knowledge. She
-            hadn&apos;t assumed what her customer felt — she was her customer.
-            My job wasn&apos;t to tell her what problem she was solving. It was
-            to find the language that made that problem, and that solution,
-            resonate beyond just herself.
+            The founder came to the brief with something most clients don&apos;t
+            have: genuine, personal product knowledge. She hadn&apos;t assumed
+            what her customer felt — she was her customer. My job wasn&apos;t to
+            tell her what problem she was solving. It was to find the language
+            that made that problem, and that solution, resonate beyond just
+            herself.
           </p>
           <p className="text-sm text-muted-foreground italic">
             Full case study — including the complete naming system and visual
@@ -143,17 +141,17 @@ export default function AeterPage() {
                 At $100 you are accessible luxury — competing with Maison
                 Margiela Replica, Jo Malone, and a growing wave of niche indie
                 perfumers. At $600 you are competing with heritage houses —
-                Creed, Amouage, Roja Parfums — brands with decades of
-                mythology, provenance, and cultural weight behind every bottle.
+                Creed, Amouage, Roja Parfums — brands with decades of mythology,
+                provenance, and cultural weight behind every bottle.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Most brands pick one end of that range and build toward it.
-                This brand needed to hold both simultaneously, as a newcomer
-                with nothing but the strength of its idea. The question
-                wasn&apos;t just &ldquo;how do we position this brand?&rdquo;
-                It was &ldquo;what kind of idea is large enough, deep enough,
-                and true enough to justify a $600 bottle from a brand nobody
-                has heard of yet?&rdquo;
+                Most brands pick one end of that range and build toward it. This
+                brand needed to hold both simultaneously, as a newcomer with
+                nothing but the strength of its idea. The question wasn&apos;t
+                just &ldquo;how do we position this brand?&rdquo; It was
+                &ldquo;what kind of idea is large enough, deep enough, and true
+                enough to justify a $600 bottle from a brand nobody has heard of
+                yet?&rdquo;
               </p>
             </div>
 
@@ -186,15 +184,15 @@ export default function AeterPage() {
         <Section className="mb-20 md:mb-28 max-w-3xl">
           <SectionLabel>03 — The Insight</SectionLabel>
           <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-6">
-            Fragrance is the only luxury product that disappears completely
-            when you use it.
+            Fragrance is the only luxury product that disappears completely when
+            you use it.
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Yet it is the one people remember most about you. It is not what
-            you wear. It is what you leave behind. The invisible signature of a
-            person in a room they have already left. In that sense, fragrance
-            is not a product at all — it is the most intangible expression of
-            self that luxury has ever sold.
+            Yet it is the one people remember most about you. It is not what you
+            wear. It is what you leave behind. The invisible signature of a
+            person in a room they have already left. In that sense, fragrance is
+            not a product at all — it is the most intangible expression of self
+            that luxury has ever sold.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-8">
             The second insight came from human behaviour rather than the
@@ -232,9 +230,9 @@ export default function AeterPage() {
             </p>
             <p className="text-muted-foreground leading-relaxed">
               The brand was built around one core belief: every person contains
-              multitudes, and every moment deserves the right one. The
-              fragrance architecture, naming system, and communication framework
-              were all built from this foundation.
+              multitudes, and every moment deserves the right one. The fragrance
+              architecture, naming system, and communication framework were all
+              built from this foundation.
             </p>
           </div>
         </Section>
@@ -300,9 +298,8 @@ export default function AeterPage() {
             The fragrance naming system was built around three conceptual
             territories — Archetypes, Dreams, and Time — each representing a
             different way of experiencing the self. Each territory contains
-            ranges. Each range contains scents. The architecture creates a
-            world that expands over time, inviting return rather than
-            replacement.
+            ranges. Each range contains scents. The architecture creates a world
+            that expands over time, inviting return rather than replacement.
           </p>
           <p className="text-sm text-muted-foreground italic mt-4">
             The complete naming system is withheld pending launch.
@@ -316,17 +313,16 @@ export default function AeterPage() {
             Where Aeter lives in the mind.
           </h2>
           <blockquote className="font-serif text-2xl md:text-3xl italic leading-snug border-l-2 border-foreground pl-6 mb-8">
-            &ldquo;For people who see perfumes as an extension of themselves,
-            we are a brand that helps establish presence through scent —
-            because fragrance is the intangible experience of what you can
-            be.&rdquo;
+            &ldquo;For people who see perfumes as an extension of themselves, we
+            are a brand that helps establish presence through scent — because
+            fragrance is the intangible experience of what you can be.&rdquo;
           </blockquote>
           <p className="text-muted-foreground leading-relaxed">
-            The positioning is built around recognition, not aspiration. It
-            does not tell customers to become someone else. It tells them that
-            what&apos;s already there deserves to come forward. That
-            distinction — self-validation over self-improvement — is what
-            separates Aeter from every other brand in the category.
+            The positioning is built around recognition, not aspiration. It does
+            not tell customers to become someone else. It tells them that
+            what&apos;s already there deserves to come forward. That distinction
+            — self-validation over self-improvement — is what separates Aeter
+            from every other brand in the category.
           </p>
         </Section>
 
@@ -389,8 +385,8 @@ export default function AeterPage() {
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8 max-w-2xl">
             Intimate, reflective, reframing, charming. The voice of a Magician
-            with the openness of an Explorer — never preachy, never dull,
-            always leaving something unsaid.
+            with the openness of an Explorer — never preachy, never dull, always
+            leaving something unsaid.
           </p>
 
           <div className="flex flex-col divide-y divide-border">
@@ -431,8 +427,7 @@ export default function AeterPage() {
         <Section className="mb-20 md:mb-28">
           <div className="py-20 md:py-32 border-t border-b border-border text-center">
             <p className="font-serif text-5xl md:text-7xl leading-none">
-              The Alchemy{" "}
-              <span className="italic">of You.</span>
+              The Alchemy <span className="italic">of You.</span>
             </p>
             <p className="text-xs tracking-widest uppercase text-muted-foreground mt-6">
               Brand essence → tagline. Presence made personal.
@@ -444,14 +439,13 @@ export default function AeterPage() {
         <Section className="mb-28 md:mb-40 max-w-3xl">
           <SectionLabel>What this project shows</SectionLabel>
           <p className="text-muted-foreground leading-relaxed">
-            Aeter is a case study in concept-led brand building — where the
-            idea precedes the product and the strategy creates a world rather
-            than a product description. The best brand strategies are acts of
+            Aeter is a case study in concept-led brand building — where the idea
+            precedes the product and the strategy creates a world rather than a
+            product description. The best brand strategies are acts of
             translation: taking what a founder knows in their bones and making
             it legible to a stranger. That&apos;s what this was.
           </p>
         </Section>
-
       </div>
 
       {/* ── Previous project link ─────────────────────────────────────────── */}
@@ -476,5 +470,4 @@ export default function AeterPage() {
       />
     </main>
   );
-}
 }
