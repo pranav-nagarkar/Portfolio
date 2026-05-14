@@ -2,13 +2,12 @@
 
 import { useInView } from "@/hooks/use-in-view";
 import { NextProject } from "@/components/case-study/next-project";
+import { Navigation } from "@/components/navigation";
+import { ImageSlideshow } from "@/components/case-study/image-slideshow";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import Image from "next/image";
-import { ImageSlideshow } from "@/components/case-study/image-slideshow";
-import { Navigation } from "@/components/navigation";
 
-// Section wrapper with scroll-in animation 
 function Section({
   children,
   className,
@@ -34,7 +33,6 @@ function Section({
   );
 }
 
-// Reusable label above sections 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4 pb-3 border-b border-border">
@@ -46,13 +44,14 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 export default function RichbearPage() {
   return (
     <main className="min-h-screen bg-background">
-      export default function RichbearPage() {
-  return (
-    <main className="min-h-screen bg-background">
       <Navigation />
+
       {/* Hero */}
-      <main className="min-h-screen bg-background">
-      <Navigation />
+      <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
+        <div
+          className="transition-all duration-700 opacity-100 translate-y-0"
+          style={{ animationFillMode: "both" }}
+        >
           <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
             Brand Strategy · F&amp;B · Café Chain · FondofDesign
           </p>
@@ -62,8 +61,9 @@ export default function RichbearPage() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
-            A brand strategy for a multi-city café chain entering a market where
-            coffee has been commoditised.
+            A brand strategy for Richbear — a multi-city café chain entering a
+            market where coffee has been commoditised and every competitor is
+            chasing the same emotional territory.
           </p>
 
           {/* Meta row */}
@@ -71,6 +71,8 @@ export default function RichbearPage() {
             {[
               { label: "Category", value: "F&B / Cafés" },
               { label: "Scope", value: "Full brand strategy" },
+              { label: "Market", value: "India (Tier 1 & 2 cities)" },
+              { label: "Via", value: "FondofDesign" },
             ].map(({ label, value }) => (
               <div key={label} className="flex flex-col gap-1">
                 <span className="text-xs tracking-widest uppercase text-muted-foreground">
@@ -83,6 +85,19 @@ export default function RichbearPage() {
         </div>
       </section>
 
+      {/* Cover image */}
+      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
+        <div className="relative w-full aspect-[16/7]">
+          <Image
+            src="/images/richbearcover.jpg"
+            alt="Richbear - Come Alive"
+            fill
+            className="object-cover rounded-sm"
+          />
+        </div>
+      </section>
+
+      {/* Slideshow */}
       <ImageSlideshow
         images={[
           "/images/richbearcover.jpg",
@@ -92,8 +107,7 @@ export default function RichbearPage() {
         alt="Richbear brand visuals"
       />
 
-      {/*Body content*/}
-      {/*Body content*/}
+      {/* Body content */}
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* 01 — The Problem */}
         <Section className="mb-20 md:mb-28 max-w-3xl">
@@ -197,6 +211,10 @@ export default function RichbearPage() {
             </p>
           </div>
         </Section>
+
+        {/* Divider */}
+        <div className="border-t border-border mb-20 md:mb-28" />
+
         {/* 04 — Brand Architecture */}
         <Section className="mb-20 md:mb-28">
           <SectionLabel>04 — Brand Architecture</SectionLabel>
@@ -379,14 +397,8 @@ export default function RichbearPage() {
           </p>
         </Section>
       </div>
-      {/* Next project */}
-      {/* Replace title/subtitle/href/image with whichever project follows Richbear in your order */}
-      <NextProject
-        title="GoChanakya"
-        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
-        href="/gochanakya"
-        image="/images/gc4.jpeg"
-      />
+
+      {/* Previous project */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/uprun"
@@ -398,6 +410,14 @@ export default function RichbearPage() {
           </span>
         </Link>
       </div>
+
+      {/* Next project */}
+      <NextProject
+        title="GoChanakya"
+        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
+        href="/gochanakya"
+        image="/images/gc.jpeg"
+      />
     </main>
   );
 }
