@@ -1,48 +1,48 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import { useState, useEffect, useCallback } from 'react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import Image from "next/image";
+import { useState, useEffect, useCallback } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface ImageSlideshowProps {
-  images: string[]
-  alt: string
+  images: string[];
+  alt: string;
 }
 
 export function ImageSlideshow({ images, alt }: ImageSlideshowProps) {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [isTransitioning, setIsTransitioning] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const goToNext = useCallback(() => {
-    if (isTransitioning) return
-    setIsTransitioning(true)
-    setCurrentIndex((prev) => (prev + 1) % images.length)
-    setTimeout(() => setIsTransitioning(false), 500)
-  }, [images.length, isTransitioning])
+    if (isTransitioning) return;
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+    setTimeout(() => setIsTransitioning(false), 500);
+  }, [images.length, isTransitioning]);
 
   const goToPrev = useCallback(() => {
-    if (isTransitioning) return
-    setIsTransitioning(true)
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)
-    setTimeout(() => setIsTransitioning(false), 500)
-  }, [images.length, isTransitioning])
+    if (isTransitioning) return;
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+    setTimeout(() => setIsTransitioning(false), 500);
+  }, [images.length, isTransitioning]);
 
   useEffect(() => {
-    const interval = setInterval(goToNext, 5000)
-    return () => clearInterval(interval)
-  }, [goToNext])
+    const interval = setInterval(goToNext, 5000);
+    return () => clearInterval(interval);
+  }, [goToNext]);
 
-  if (images.length === 0) return null
+  if (images.length === 0) return null;
 
   return (
-    <section className="py-12 md:py-20">
+    <section className="pt-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="relative aspect-[16/9] overflow-hidden bg-secondary rounded-sm">
           {images.map((image, index) => (
             <div
               key={image}
               className={`absolute inset-0 transition-opacity duration-500 ${
-                index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
+                index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
               }`}
             >
               <Image
@@ -82,15 +82,15 @@ export function ImageSlideshow({ images, alt }: ImageSlideshowProps) {
                   key={index}
                   onClick={() => {
                     if (!isTransitioning) {
-                      setIsTransitioning(true)
-                      setCurrentIndex(index)
-                      setTimeout(() => setIsTransitioning(false), 500)
+                      setIsTransitioning(true);
+                      setCurrentIndex(index);
+                      setTimeout(() => setIsTransitioning(false), 500);
                     }
                   }}
                   className={`w-2 h-2 rounded-full transition-all ${
-                    index === currentIndex 
-                      ? 'bg-background w-6' 
-                      : 'bg-background/50 hover:bg-background/70'
+                    index === currentIndex
+                      ? "bg-background w-6"
+                      : "bg-background/50 hover:bg-background/70"
                   }`}
                   aria-label={`Go to image ${index + 1}`}
                 />
@@ -100,5 +100,5 @@ export function ImageSlideshow({ images, alt }: ImageSlideshowProps) {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -385,7 +385,7 @@ export default function RichbearPage() {
         title="GoChanakya"
         subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
         href="/gochanakya"
-        image="/images/gc.jpeg"
+        image="/images/gc4.jpeg"
       />
       {/* Previous project */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
