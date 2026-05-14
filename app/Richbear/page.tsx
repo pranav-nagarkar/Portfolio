@@ -5,6 +5,7 @@ import { NextProject } from "@/components/case-study/next-project";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
+import { ImageSlideshow } from "@/components/case-study/image-slideshow";
 
 // ─── Section wrapper with scroll-in animation ───────────────────────────────
 function Section({
@@ -77,17 +78,17 @@ export default function RichbearPage() {
           </div>
         </div>
       </section>
-      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
-        <div className="relative w-full aspect-[16/7]">
-          <Image
-            src="/images/richbearcover.jpg"
-            alt="Richbear"
-            fill
-            className="object-cover rounded-sm"
-          />
-        </div>
-      </section>
 
+      <ImageSlideshow
+        images={[
+          "/images/richbearcover.jpg",
+          "/images/richbear3.jpg",
+          "/images/richbear2.jpg",
+        ]}
+        alt="Richbear brand visuals"
+      />
+
+      {/* ── Body content ─────────────────────────────────────── */}
       {/* ── Body content ─────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* 01 — The Problem */}
