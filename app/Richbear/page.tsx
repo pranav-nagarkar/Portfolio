@@ -56,9 +56,8 @@ export default function RichbearPage() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
-            A brand strategy for Richbear — a multi-city café chain entering a
-            market where coffee has been commoditised and every competitor is
-            chasing the same emotional territory.
+            A brand strategy for a multi-city café chain entering a market where
+            coffee has been commoditised.
           </p>
 
           {/* Meta row */}
@@ -66,8 +65,6 @@ export default function RichbearPage() {
             {[
               { label: "Category", value: "F&B / Cafés" },
               { label: "Scope", value: "Full brand strategy" },
-              { label: "Market", value: "India (Tier 1 & 2 cities)" },
-              { label: "Via", value: "FondofDesign" },
             ].map(({ label, value }) => (
               <div key={label} className="flex flex-col gap-1">
                 <span className="text-xs tracking-widest uppercase text-muted-foreground">
@@ -378,8 +375,14 @@ export default function RichbearPage() {
           </p>
         </Section>
       </div>
-
-      {/* ── Previous project link ─────────────────────────────────────────── */}
+      {/* ── Next project ──────────────────────────────────────────────────── */}
+      {/* Replace title/subtitle/href/image with whichever project follows Richbear in your order */}
+      <NextProject
+        title="GoChanakya"
+        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
+        href="/gochanakya"
+        image="/images/gc4.jpeg"
+      />
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/uprun"
@@ -391,15 +394,6 @@ export default function RichbearPage() {
           </span>
         </Link>
       </div>
-
-      {/* ── Next project ──────────────────────────────────────────────────── */}
-      {/* Replace title/subtitle/href/image with whichever project follows Richbear in your order */}
-      <NextProject
-        title="GoChanakya"
-        subtitle="Rebranding a financial education firm for India's first-time earners — 15% sales uplift post-launch."
-        href="/gochanakya"
-        image="/images/gc.jpeg"
-      />
     </main>
   );
 }
