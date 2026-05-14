@@ -86,18 +86,6 @@ export default function GoChanakyaPage() {
         </div>
       </section>
 
-      {/* Cover image */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
-        <div className="relative w-full aspect-[16/7]">
-          <Image
-            src="/images/gc4.jpeg"
-            alt="GoChanakya brand identity"
-            fill
-            className="object-cover rounded-sm"
-          />
-        </div>
-      </section>
-
       {/* Slideshow */}
       <ImageSlideshow images={slideshowImages} alt="GoChanakya brand visuals" />
 
