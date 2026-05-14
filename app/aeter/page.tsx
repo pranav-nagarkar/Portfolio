@@ -71,7 +71,6 @@ export default function AeterPage() {
             { label: "Scope", value: "Full brand strategy" },
             { label: "Markets", value: "US & Gulf" },
             { label: "Price Range", value: "$100 – $600" },
-            { label: "Via", value: "FondofDesign" },
           ].map(({ label, value }) => (
             <div key={label} className="flex flex-col gap-1">
               <span className="text-xs tracking-widest uppercase text-muted-foreground">
@@ -80,18 +79,6 @@ export default function AeterPage() {
               <span className="text-sm text-foreground">{value}</span>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* ── Cover image ───────────────────────────────────────────────────── */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
-        <div className="relative w-full aspect-[16/7]">
-          <Image
-            src="/images/aeter-cover.jpg"
-            alt="Aeter — luxury fragrance brand"
-            fill
-            className="object-cover rounded-sm"
-          />
         </div>
       </section>
 
