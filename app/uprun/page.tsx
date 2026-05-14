@@ -462,7 +462,7 @@ export default function UpRunPage() {
       <NextProject
         title="Richbear"
         subtitle="A brand strategy for a multi-city café chain entering a market where coffee has been commoditised."
-        href="/richbear"
+        href="/Richbear"
         image="/images/richbearcover.jpg"
       />
     </main>
