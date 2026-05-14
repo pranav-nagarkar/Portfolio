@@ -82,19 +82,6 @@ export default function RichbearPage() {
           </div>
         </div>
       </section>
-
-      {/* Cover image */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
-        <div className="relative w-full aspect-[16/7]">
-          <Image
-            src="/images/richbearcover.jpg"
-            alt="Richbear - Come Alive"
-            fill
-            className="object-cover rounded-sm"
-          />
-        </div>
-      </section>
-
       {/* Slideshow */}
       <ImageSlideshow
         images={[
@@ -400,8 +387,8 @@ export default function RichbearPage() {
         href="/gochanakya"
         image="/images/gc.jpeg"
       />
-         {/* Previous project */}
-         <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+      {/* Previous project */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
         <Link
           href="/uprun"
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
