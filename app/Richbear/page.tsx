@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import { ImageSlideshow } from "@/components/case-study/image-slideshow";
+import { Navigation } from "@/components/navigation";
 
 // ─── Section wrapper with scroll-in animation ───────────────────────────────
 function Section({
@@ -43,6 +44,10 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 export default function RichbearPage() {
   return (
     <main className="min-h-screen bg-background">
+      export default function RichbearPage() {
+  return (
+    <main className="min-h-screen bg-background">
+      <Navigation />
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 md:pt-36 pb-16 md:pb-24">
         <div
