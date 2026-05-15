@@ -73,7 +73,7 @@ export function ProjectsSection() {
             Selected Work
           </h2>
           <span className="text-sm tracking-wider uppercase text-muted-foreground">
-            05 Projects
+            06 Projects
           </span>
         </div>
 
