@@ -61,7 +61,6 @@ export function WritingSection() {
         {/* Essay Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-xl">
           {essays.map((essay, index) => (
-            
               key={essay.title}
               href={essay.href}
               target="_blank"
