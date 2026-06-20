@@ -35,7 +35,6 @@ export function WritingSection() {
       className="py-24 md:py-32 border-t border-border"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        {/* Section Header */}
         <div
           className={`flex flex-col md:flex-row md:justify-between md:items-baseline mb-4 transition-all duration-700 ${
             isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
@@ -58,9 +57,9 @@ export function WritingSection() {
           the noise.
         </p>
 
-        {/* Essay Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-xl">
           {essays.map((essay, index) => (
+            
               key={essay.title}
               href={essay.href}
               target="_blank"
@@ -72,7 +71,6 @@ export function WritingSection() {
               }`}
               style={{ transitionDelay: `${200 + index * 150}ms` }}
             >
-              {/* Cover image */}
               <div className="relative aspect-[3/4] w-full overflow-hidden">
                 <Image
                   src={essay.image}
@@ -82,7 +80,6 @@ export function WritingSection() {
                 />
               </div>
 
-              {/* Text block */}
               <div className="p-5 sm:p-6">
                 <span className="text-xs tracking-wider uppercase text-accent block mb-2">
                   {essay.readTime}
@@ -114,7 +111,6 @@ export function WritingSection() {
           ))}
         </div>
 
-        {/* More on Substack CTA */}
         
           href={SUBSTACK_URL}
           target="_blank"
