@@ -53,13 +53,13 @@ export function WritingSection() {
             isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Same instinct, different format: finding the argument underneath
-          the noise.
+          Same instinct, different format: finding the argument underneath the
+          noise.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-xl">
           {essays.map((essay, index) => (
-           <a 
+            <a
               key={essay.title}
               href={essay.href}
               target="_blank"
@@ -111,7 +111,7 @@ export function WritingSection() {
           ))}
         </div>
 
-        
+        <a
           href={SUBSTACK_URL}
           target="_blank"
           rel="noopener noreferrer"
