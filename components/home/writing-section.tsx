@@ -59,7 +59,7 @@ export function WritingSection() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-xl">
           {essays.map((essay, index) => (
-            
+           <a 
               key={essay.title}
               href={essay.href}
               target="_blank"
